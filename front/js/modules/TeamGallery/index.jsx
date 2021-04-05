@@ -19,7 +19,7 @@ const teamData = [
     subtitle: 'hidrógrafo consultor',
     experience: '11',
     profession: 'Hidrógrafo ex SHOA',
-    study: 'SHOA​ y Academia Politécnica Naval​',
+    study: 'Servicio Hidrográfico y Oceanográfico de la Armada​',
     description: ''
   },
   {
@@ -45,11 +45,11 @@ const teamData = [
   {
     icon: '/static/img/team/helmuthProschle-icon.png',
     url: '/static/img/team/helmuthProschle.png',
-    name: 'Helmuth Proschle',
+    name: 'Helmuth Proschle A.',
     subtitle: 'hidrógrafo consultor',
     experience: '11',
-    profession: 'Hidrógrafo ex SHOA',
-    study: 'SHOA​ y Academia Politécnica Naval',
+    profession: 'Ingeniero Ejecución Industrial / Hidrógrafo ex SHOA',
+    study: 'Universidad de las Américas / Servicio Hidrográfico y Oceanográfico de la Armada',
     description: ''
   },
   {
@@ -58,7 +58,7 @@ const teamData = [
     name: 'Jorge Álvarez C.',
     subtitle: 'gerente general',
     experience: '25',
-    profession: 'Oceanógrafo​ / Diplomado ingeniería Oceánica​',
+    profession: 'Oceanógrafo​ / Diplomado ingeniería Marítima',
     study: 'Pontificia Universidad Católica de Valparaíso / Universidad de Valparaíso​',
     description: ''
   },
@@ -69,7 +69,7 @@ const teamData = [
     subtitle: 'hidrógrafo consultor',
     experience: '11',
     profession: 'Hidrógrafo ex SHOA',
-    study: 'SHOA​ y Academia Politécnica Naval',
+    study: 'Servicio Hidrográfico y Oceanográfico de la Armada',
     description: ''
   },
   {
