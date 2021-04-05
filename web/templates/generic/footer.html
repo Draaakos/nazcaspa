@@ -1,0 +1,47 @@
+{% load web_extras %}
+
+<footer>
+    <div class="footer__content">
+        <div class="grid-3 gap-2">
+            <div>
+                <h5>Nazca SpA</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum urna non nisi ornare, condimentum iaculis ipsum blandit. Duis auctor vulputate metus nec luctus.</p>
+            </div>
+            <div>
+                <h5>GALERÍA</h5>
+                <div class="grid-3 gap-2">
+                    <div><img src="{% version '/img/services/oceanografia.jpg' %}"/></div>
+                    <div><img src="{% version '/img/services/hidrografia.jpeg' %}"/></div>
+                    <div><img src="{% version '/img/services/robotica.jpg' %}"/></div>
+                </div>
+            </div>
+            <div>
+                <h5>ADDRESS</h5>
+                <div>
+                    <div class="address-block">
+                        <div class="address-block__icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <div class="address-block__title">Número de Contacto</div>
+                            <div class="address-block__description">+56 65 2715568</div>
+                        </div>
+                    </div>
+                    <div class="address-block">
+                        <div class="address-block__icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <div class="address-block__title">Número de Contacto</div>
+                            <div class="address-block__description">+56 9 7763 1606</div>
+                        </div>
+                    </div>
+                    <div class="address-block">
+                        <div class="address-block__icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <div class="address-block__title">Correo electrónico</div>
+                            <div class="address-block__description">contacto@nazcaspa.cl</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="bottom-bar">© 2021 Nazca SpA. Todos los derechos reservados.<div>
+</footer>

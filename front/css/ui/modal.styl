@@ -1,0 +1,43 @@
+.modal
+    display none
+    position fixed
+    top 0
+    left 0
+    width 100vw
+    height 100vh
+    justify-content center 
+    align-items center
+    background-color rgba(0, 0, 0, .8)
+    z-index 1000
+
+    &--active
+        display flex
+
+    .content
+        // max-width 500px
+        min-width 320px
+        min-height 100px
+        background-color white
+        padding 2em 1em
+        text-align center
+
+        .service-modal-card
+            font-family 'Open Sans', sans-serif
+
+            .title
+                margin 1em
+                text-align center
+                font-size 25px
+                color #000
+                font-weight bold
+
+            .description
+                text-align justify
+                color #888
+                line-height 1.5
+                font-size .9em
+
+        img 
+            width 100%
+        
+

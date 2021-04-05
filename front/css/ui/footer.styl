@@ -1,0 +1,74 @@
+footer
+    padding 1em
+    padding-top 2em
+    background-color #111727
+    color #707480
+    font-family 'Open Sans', sans-serif
+
+    img
+        width 100%
+
+    h5
+        color #FFFFFF
+        font-size 1.2em
+        text-transform uppercase
+        font-weight 600
+        letter-spacing 1px
+        margin 0 0 2em 0
+
+    p
+        color #707480
+        font-size 0.9em
+        line-height 2em
+        letter-spacing 1px
+        text-align justify
+
+
+    .footer__content
+        max-width 1024px
+        margin 0 auto
+
+    .bottom-bar
+        background-color #0c111f
+        text-align center
+        color #b2b7bf
+        font-size .9em
+        letter-spacing 2px
+        padding 1em
+
+
+    .address-block
+        background-color #0c111f
+        padding 1em
+        display flex
+        margin-bottom 1em
+
+        &__title
+            color white
+            padding-left 1em
+
+        &__description
+            line-height 2em
+            letter-spacing 1px
+            color #707480
+            padding-left 1em
+
+        &__icon
+            color white
+            display flex
+            align-items center
+            justify-content center
+
+
+@media screen and (min-width 1024px)
+    footer 
+        padding 0
+        padding-top 1em
+
+    .grid-3
+        display grid
+        grid-template-columns repeat(3, 1fr)
+        width 100%
+
+    .gap-2
+        grid-gap 2em

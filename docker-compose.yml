@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+    app:
+        build: drakosddos/1c082d075cd441bfb7065ac34e423a2b:v0.0.2
+        container_name: nazca-app
+        ports:
+            - 8000:8000
+        networks:
+            - nazcaspa
+        volumes:
+            - ./static-root/:/app/static-root/
+            - ./media/:/app/media/
+
+    nginx:
+        image: nginx:1.19.3
+        container_name: nginx-nazca
+        ports:
+            - 80:80
+            - 443:443
+        networks:
+            - nazcaspa
+        volumes:
+            - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+            - ./static-root/:/app/static-root/
+            - ./media/:/app/media/
+       
+networks:
+    nazcaspa:

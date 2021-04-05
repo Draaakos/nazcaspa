@@ -1,0 +1,44 @@
+<script>
+    const onHandlerMenu = () => {
+        const element = document.getElementById('nav-icon2');
+        const menu = document.getElementById('menu');
+
+        if(document.querySelector('#nav-icon2.open')) {
+            element.classList.remove('open');
+            menu.classList.remove('menu--active');
+        } else {
+            element.classList.add('open');
+            menu.classList.add('menu--active');
+        }
+    }
+
+    function onGoToSection(id) {
+        document.getElementById(id)
+            .scrollIntoView({ 
+                block: 'start', 
+                behavior: 'smooth' 
+            });
+    }
+</script>
+
+<div class="nav-icon" onclick="onHandlerMenu()">
+    <div id="nav-icon2">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+<nav id="menu" class="menu">
+    <div class="menu-list">
+        <div class="menu-item" onclick="onGoToSection('home')">Inicio</div>
+        <div class="menu-item" onclick="onGoToSection('about-us')">Sobre nosotros</div>
+        <div class="menu-item" onclick="onGoToSection('services-gallery')">Servicios</div>
+        <div class="menu-item" onclick="onGoToSection('team-gallery')">Nuestro equipo</div>
+        <div class="menu-item" onclick="onGoToSection('clients')">Portal clientes</div>
+        <div class="menu-item" onclick="onGoToSection('contact')">Contacto</div>
+    </div>
+</nav>
