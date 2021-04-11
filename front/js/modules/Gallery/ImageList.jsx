@@ -11,10 +11,14 @@ const GalleryColumn = ({ imageList }) => (
 
 const ImageList = () => {
   const [images, setImages] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     service.fetchGallery()
-      .then(response => setImages(response.images))
+      .then(response => {
+        setImages(response.images);
+        setIsLoading(false);
+      })
   }, []);
 
   const numberList = 3;
@@ -28,11 +32,13 @@ const ImageList = () => {
     i = i + 1;
   });
 
+  const imageListComponent = images.length 
+    ? content.map((imageList, index) => <GalleryColumn key={`column-${index}`} imageList={imageList} />)
+    : <div>No hay imagenes</div>
+
   return(
     <div className="gallery">
-      {
-        content.map((imageList, index) => <GalleryColumn key={`column-${index}`} imageList={imageList} />)
-      }
+      { !isLoading ? imageListComponent : null }
     </div>
 
       

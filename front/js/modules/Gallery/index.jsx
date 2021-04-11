@@ -10,7 +10,7 @@ const Gallery = () => {
     <div className="galery-information__container">
       {modal}
       <div className="galery-information__container__title">GALERÍA</div>
-      <div className="galery-information__container__description">Duis nulla nulla, faucibus id diam ac, luctus sodales purus. Quisque nibh ipsum, venenatis vitae imperdiet eu, commodo nec sem. Ut accumsan tellus quis velit mattis sollicitudin.</div>
+      <div className="galery-information__container__description">En esta galerÍa podrás apreciar fragmentos del trabajo al que nos dedicamos a diario. </div>
       <button className="nazca-button" onClick={() => setModalActive(true)}>Ver galería</button>
     </div>
   )

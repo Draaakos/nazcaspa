@@ -76,10 +76,40 @@ const teamData = [
     icon: '/static/img/team/marceloProvoste-icon.png',
     url: '/static/img/team/marceloProvoste.png',
     name: 'Marcelo Provoste D.​',
-    subtitle: 'biólogo consultor',
+    subtitle: 'Biólogo consultor',
     experience: '3',
     profession: 'Biólogo Marino​',
     study: 'Universidad de Los Lagos​',
+    description: ''
+  },
+  {
+    icon: '/static/img/team/rolandoMorales-icon.png',
+    url: '/static/img/team/rolandoMorales.png',
+    name: 'Rolando Morales G.​',
+    subtitle: 'Coordinador de proyectos',
+    experience: '21',
+    profession: 'Técnico nivel superior administración marítima portuaria​',
+    study: 'academia politecnica naval',
+    description: ''
+  },
+  {
+    icon: '/static/img/team/lilianHernandez-icon.png',
+    url: '/static/img/team/lilianHernandez.png',
+    name: 'Lilian Hernandez P.',
+    subtitle: 'Secretaria de gerencia',
+    experience: '25',
+    profession: 'Secretaria ejecutiva',
+    study: 'CFT la araucana​',
+    description: ''
+  },
+  {
+    icon: '/static/img/team/no-image.png',
+    url: '/static/img/team/no-image.png',
+    name: 'Priscilla Morales G.​',
+    subtitle: 'Gerente recursos humanos',
+    experience: '20',
+    profession: 'Secretaria ejecutiva computacional',
+    study: 'CFT la araucana​',
     description: ''
   }
 ];
