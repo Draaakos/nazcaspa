@@ -53,8 +53,8 @@ const teamData = [
     description: ''
   },
   {
-    icon: '/static/img/team/jorgeAlvarez_PriscillaMorales-icon.png',
-    url: '/static/img/team/jorgeAlvarez_PriscillaMorales.png',
+    icon: '/static/img/team/jorge-icon.jpg',
+    url: '/static/img/team/jorge.jpg',
     name: 'Jorge Álvarez C.',
     subtitle: 'gerente general',
     experience: '25',
@@ -103,8 +103,8 @@ const teamData = [
     description: ''
   },
   {
-    icon: '/static/img/team/no-image.png',
-    url: '/static/img/team/no-image.png',
+    icon: '/static/img/team/priscila-icon.jpg',
+    url: '/static/img/team/priscila.jpg',
     name: 'Priscilla Morales G.​',
     subtitle: 'Gerente recursos humanos',
     experience: '20',
