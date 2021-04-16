@@ -171,6 +171,7 @@ const TeamGallery = () => {
       data={item}
       onClick={onHandlerItem(index)}
       isActive={!!(index === itemActive)}
+      key={`team-gallery-${index}`}
     />
   );
 
@@ -182,6 +183,7 @@ const TeamGallery = () => {
             item={item} 
             isActive={!!(index == itemActive)} 
             onClick={onHandlerItem(index)} 
+            key={`img-team-gallery-${index}`}
           /> 
         )
       }

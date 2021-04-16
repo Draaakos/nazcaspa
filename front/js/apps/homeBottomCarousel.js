@@ -48,30 +48,12 @@ const BannerCarousel = () => (
       showStatus={false}
   >
     <div className="card-list-client grid-2 gap-2">
-      { clientList1.map((item, index) => <Card data={item}/>) }
+      { clientList1.map((item, index) => <Card key={`card-${index}`} data={item}/>) }
     </div>
     <div className="card-list-client grid-2 gap-2">
-      { clientList2.map((item, index) => <Card data={item}/>) }
+      { clientList2.map((item, index) => <Card key={`card-${index}`} data={item}/>) }
     </div>
-    {/* <div className="client-section">
-      <div>
-        <div className="title">WHAT THEY SAY</div>
-        <div className="information">Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa, eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta, convallis tortor.</div>
-      </div>
-    </div>
-    <div className="client-section">
-      <div>
-        <div className="title">WHAT THEY SAY</div>
-        <div className="information">Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa, eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta, convallis tortor.</div>
-      </div>
-    </div>
-    <div className="client-section">
-      <div>
-        <div className="title">WHAT THEY SAY</div>
-        <div className="information">Donec laoreet eu purus eu viverra. Vestibulum sed convallis massa, eu aliquet massa. Suspendisse lacinia rutrum tincidunt. Integer id erat porta, convallis tortor.</div>
-      </div>
-    </div> */}
   </Carousel>
 );
 
-ReactDOM.render(<BannerCarousel />, document.getElementById('home-bottom-carousel'));
+ReactDOM.render(<BannerCarousel key='banner-carousel-2'/>, document.getElementById('home-bottom-carousel'));

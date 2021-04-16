@@ -53,26 +53,24 @@ const ServicesGallery = () => {
       <div className="section-title">SERVICIOS</div>
 
       <div className="grid-3 gap-2 grid-margin">
-        <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.OCEANOGRAPHY)}>
+      <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.GEODESY)}>
           <div className="shadow-block">
             <div className="shadow-block__container">
-              <h4>OCEANOGRAFÍA</h4>
+              <h4>GEODESIA Y TOPOGRAFÍA</h4>
             </div>
           </div>
 
-          <img src="/static/img/services/oceanografia.jpg"/>
+          <img src="/static/img/services/geodesia.jpeg"/>
         </div>
-
-        <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.HIDROGRAPHY)}>
+        <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.ROBOTIC)}>
           <div className="shadow-block">
             <div className="shadow-block__container">
-              <h4>HIDROGRAFÍA</h4>
+              <h4>ROBÓTICA SUBMARINA</h4>
             </div>
           </div>
           
-          <img src="/static/img/services/hidrografia.jpeg"/>
+          <img src="/static/img/services/robotica.jpg"/>
         </div>
-
         <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.METEOROLOGY)}>
           <div className="shadow-block">
             <div className="shadow-block__container">
@@ -85,24 +83,23 @@ const ServicesGallery = () => {
       </div>
 
       <div className="grid-2 gap-2 grid-margin">
-        <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.GEODESY)}>
+        <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.OCEANOGRAPHY)}>
           <div className="shadow-block">
             <div className="shadow-block__container">
-              <h4>GEODESIA Y TOPOGRAFÍA</h4>
+              <h4>OCEANOGRAFÍA</h4>
             </div>
           </div>
 
-          <img src="/static/img/services/geodesia.jpeg"/>
+          <img src="/static/img/services/oceanografia.jpg"/>
         </div>
-
-        <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.ROBOTIC)}>
+        <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.HIDROGRAPHY)}>
           <div className="shadow-block">
             <div className="shadow-block__container">
-              <h4>ROBÓTICA SUBMARINA</h4>
+              <h4>HIDROGRAFÍA</h4>
             </div>
           </div>
           
-          <img src="/static/img/services/robotica.jpg"/>
+          <img src="/static/img/services/hidrografia.jpeg"/>
         </div>
       </div>
 
