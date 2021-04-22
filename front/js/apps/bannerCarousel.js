@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
 
 const BannerCarousel = () => (
-  <Carousel infiniteLoop autoPlay showThumbs={false} showIndicators={false} showArrows={false} showStatus={false}>
+  <Carousel infiniteLoop autoPlay showThumbs={false} showIndicators={false} showArrows={false} showStatus={false} interval={5000}>
     <div className="text-section" key={'banner-1'}>
       <div>Caminemos juntos en el conocimiento de nuestro océano</div>
     </div>
@@ -16,4 +16,4 @@ const BannerCarousel = () => (
   </Carousel>
 );
 
-ReactDOM.render(<BannerCarousel key='banner-carousel-1'/>, document.getElementById('banner-carousel'));
+ReactDOM.render(<BannerCarousel key='banner-carousel-1' />, document.getElementById('banner-carousel'));
