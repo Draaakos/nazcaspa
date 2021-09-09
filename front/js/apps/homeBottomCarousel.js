@@ -28,6 +28,14 @@ const clientList2 = [
   }
 ];
 
+const clientList3 = [
+  {
+    'name': 'Cooke AQUALCULTURE',
+    'url': '/static/img/cooke.png',
+    'link': 'https://nazcaspa.sharepoint.com/sites/CookeAquacultureChile'
+  }
+];
+
 const Card = ({ data }) => (
   <div className="card" onClick={() => window.location.assign(data.link)}>
     <div className="card__content">
@@ -52,6 +60,9 @@ const BannerCarousel = () => (
     </div>
     <div className="card-list-client grid-2 gap-2">
       { clientList2.map((item, index) => <Card key={`card-${index}`} data={item}/>) }
+    </div>
+    <div className="card-list-client grid-2 gap-2">
+      { clientList3.map((item, index) => <Card key={`card-${index}`} data={item}/>) }
     </div>
   </Carousel>
 );
