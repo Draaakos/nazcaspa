@@ -39,8 +39,6 @@ class Email(Thread):
         self.documents.append(filename)
 
     def run(self):
-        # image = self.get_image_header_source()
-
         mail = EmailMultiAlternatives(
             self.subject,
             self.message,
@@ -50,7 +48,6 @@ class Email(Thread):
 
         mail.mixed_subtype = 'related'
         mail.attach_alternative(self.message, 'text/html')
-        # mail.attach(image)
 
         for document in self.documents:
             mail.attach_file(document)

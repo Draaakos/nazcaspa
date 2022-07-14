@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import InterestForm from '../modules/InterestForm';
 
-ReactDOM.render(<InterestForm />, document.getElementById('interest-form'));
+const root = createRoot(document.getElementById('interest-form'));
+root.render(<InterestForm />);

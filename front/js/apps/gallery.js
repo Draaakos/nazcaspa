@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Component from './../modules/Gallery';
+import { createRoot } from 'react-dom/client';
+import Gallery from './../modules/Gallery';
 
-ReactDOM.render(<Component />, document.getElementById('gallery'));
+const root = createRoot(document.getElementById('gallery'));
+root.render(<Gallery />);

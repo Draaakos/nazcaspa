@@ -6,7 +6,7 @@
 #     rm -rf dist
 # fi
 
-mkdir public
+mkdir static
 
 mkdir -p static/img
 mkdir -p static/js
