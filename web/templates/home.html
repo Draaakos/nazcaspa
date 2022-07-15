@@ -1,25 +1,16 @@
 {% extends "base.html" %}
 {% load web_extras %}
 
+{% block js %}
+<script defer src="{% version 'js/bannercarousel.bundle.js' %}"></script>
+<script defer src="{% version 'js/home.bundle.js' %}"></script>
+{% endblock %}
+
 {% block css %}
-<link rel="stylesheet" href="{% version 'css/carousel.css' %}">
 <link rel="stylesheet" href="{% version 'css/home-page.css' %}">
 {% endblock %}
 
-{% block js %}
-<script defer src="{% version 'js/bannercarousel.bundle.js' %}"></script>
-<script defer src="{% version 'js/homebottomcarousel.bundle.js' %}"></script>
-<script defer src="{% version 'js/servicesgallery.bundle.js' %}"></script>
-<script defer src="{% version 'js/teamgallery.bundle.js' %}"></script>
-<script defer src="{% version 'js/interestform.bundle.js' %}"></script>
-<script defer src="{% version 'js/gallery.bundle.js' %}"></script>
-<script src="{% version 'js/all.js' %}"></script>
-{% endblock %}
-
 {% block content %}
-{% include './section/home.html' %}
-{% include './section/services.html' %}
-{% include './section/clients.html' %}
-{% include './section/contact.html' %}
-
+{% include 'section/banner.html' %}
+<div id="home" class="home-page"></div>
 {% endblock %}

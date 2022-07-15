@@ -5,6 +5,7 @@ const getJSConfig = (env = { mode: 'development' }) => {
   const config = {
     mode: 'development',
     entry: {
+      home: createAppPath('home'),
       bannercarousel: createAppPath('bannerCarousel'),
       homebottomcarousel: createAppPath('homeBottomCarousel'),
       servicesgallery: createAppPath('servicesGallery'),
