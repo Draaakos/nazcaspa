@@ -8,7 +8,6 @@ const GalleryColumn = ({ imageList }) => (
   </div>
 );
 
-
 const ImageList = () => {
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -40,19 +39,7 @@ const ImageList = () => {
     <div className="gallery">
       { !isLoading ? imageListComponent : null }
     </div>
-
-      
-    //   { 
-    //     images.map(image => {
-    //       return (
-    //         <div>
-    //           <img src={image.url}/>
-    //         </div>
-    //       )
-    //     })
-    //   }
-    // </div>
-  )
+  );
 }
 
 export default ImageList;

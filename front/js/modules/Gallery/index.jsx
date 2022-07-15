@@ -4,7 +4,14 @@ import ImageList from './ImageList';
 
 const Gallery = () => {
   const [isModalActive, setModalActive] = useState(false);
-  const modal = isModalActive ? <Modal onHandler={() => setModalActive(false)} status={isModalActive}><ImageList /></Modal> : null;
+  const modal = isModalActive 
+    ? <Modal 
+        onHandler={() => setModalActive(false)} 
+        status={isModalActive}
+      >
+        <ImageList />
+      </Modal> 
+    : null;
 
   return (
     <div className="galery-information__container">

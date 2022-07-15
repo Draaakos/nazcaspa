@@ -5,7 +5,7 @@ const post = (url, data = {}) => fetch(url, {
     body: JSON.stringify(data)
   });
   
-  const get = (url) => fetch(url, {
+  const get = url => fetch(url, {
     method: 'GET',
     headers: { 'Content-Type': 'application/json' }
   });

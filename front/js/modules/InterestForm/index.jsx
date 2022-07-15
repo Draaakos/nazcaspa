@@ -50,7 +50,13 @@ const InterestForm = () => {
       <div className="subtitle">Ingrese sus datos:</div>
       <div className="form-input-container">
         <label className="label">Nombre:</label>
-        <input ref={name} placeholder="Javier Abarca" className="input" type="text" required />
+        <input 
+          ref={name} 
+          placeholder="Javier Abarca" 
+          className="input" 
+          type="text" 
+          required 
+        />
       </div>
       <div className="form-input-container">
         <label className="label">Celular/Telefono:</label>

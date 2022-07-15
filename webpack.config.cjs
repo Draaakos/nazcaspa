@@ -10,7 +10,6 @@ const getJSConfig = (env = { mode: 'development' }) => {
       servicesgallery: createAppPath('servicesGallery'),
       interestform: createAppPath('interestForm'),
       teamgallery: createAppPath('teamGallery'),
-      home: createAppPath('home'),
       gallery: createAppPath('gallery')
     },
     output: {
