@@ -1,0 +1,56 @@
+.characteristics
+    background-color #111727
+    margin-bottom 4em
+
+    .grid-1g-2x2 
+        max-width 1140px
+        margin 0 auto
+
+    .box-blue-bg
+        min-height 250px
+        background-color #1c2438
+
+    .box-light-blue-bg
+        min-height 250px
+        background-color #1F69AF
+
+.grid-1g-2x2
+    display grid
+    grid-template-columns repeat(3, 1fr)
+    grid-template-areas 'x1 x2 x3' 'x1 x4 x5'
+
+.grid-item-x1
+    grid-area x1
+
+.grid-item-x2
+    grid-area x2
+
+.grid-item-x3
+    grid-area x3
+
+.grid-item-x4
+    grid-area x4
+
+.grid-item-x5
+    grid-area x5
+
+
+.box-info
+    font-family 'Montserrat', sans-serif
+    color white
+    padding 1em
+
+    &__title
+        text-align center
+        font-weight bold
+        margin-bottom 1em
+        font-size 1.3em
+        text-transform uppercase
+
+    &__description
+        text-align center
+
+.center-flex-box
+    display flex
+    justify-content center 
+    align-items center

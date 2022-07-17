@@ -60,7 +60,7 @@ const ServicesGallery = () => {
             </div>
           </div>
 
-          <img src="/static/img/services/geodesia.jpeg"/>
+          <img src="/static/img/services/geodesia.jpeg" alt="geodesia" />
         </div>
         <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.ROBOTIC)}>
           <div className="shadow-block">
@@ -69,7 +69,7 @@ const ServicesGallery = () => {
             </div>
           </div>
           
-          <img src="/static/img/services/robotica.jpg"/>
+          <img src="/static/img/services/robotica.jpg" alt="robotica" />
         </div>
         <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.METEOROLOGY)}>
           <div className="shadow-block">
@@ -78,7 +78,7 @@ const ServicesGallery = () => {
             </div>
           </div>
 
-          <img src="/static/img/services/meteorologia.jpg"/>
+          <img src="/static/img/services/meteorologia.jpg" alt="meteorologia" />
         </div>
       </div>
 
@@ -90,7 +90,7 @@ const ServicesGallery = () => {
             </div>
           </div>
 
-          <img src="/static/img/services/oceanografia.jpg"/>
+          <img src="/static/img/services/oceanografia.jpg" alt="oceanografia"/>
         </div>
         <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.HIDROGRAPHY)}>
           <div className="shadow-block">
@@ -99,7 +99,7 @@ const ServicesGallery = () => {
             </div>
           </div>
           
-          <img src="/static/img/services/hidrografia.jpeg"/>
+          <img src="/static/img/services/hidrografia.jpeg" alt="hidrografia" />
         </div>
       </div>
 
@@ -111,7 +111,7 @@ const ServicesGallery = () => {
             </div>
           </div>
 
-          <img src="/static/img/services/hidrodinamica.jpg"/>
+          <img src="/static/img/services/hidrodinamica.jpg" alt="hidrodinamica" />
         </div>
 
         <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.ENVIRONMENTAL)}>
@@ -121,7 +121,7 @@ const ServicesGallery = () => {
             </div>
           </div>
 
-          <img src="/static/img/services/ambientales.jpg"/>
+          <img src="/static/img/services/ambientales.jpg" alt="ambientales" />
         </div>
 
         <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.FORMALITIES)}>
@@ -131,7 +131,7 @@ const ServicesGallery = () => {
             </div>
           </div>
 
-          <img src="/static/img/services/sectoriales.jpg"/>
+          <img src="/static/img/services/sectoriales.jpg" alt="sectoriales" />
         </div>
       </div>
     </div>

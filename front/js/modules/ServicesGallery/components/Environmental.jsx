@@ -2,7 +2,7 @@ import React from 'react';
 
 const Environmental = () => (
   <div className="service-modal-card">
-    <div><img src="/static/img/services/ambientales.jpg" alt=""/></div>
+    <div><img src="/static/img/services/ambientales.jpg" alt="ambientales" /></div>
     
     <div className="title">ESTUDIOS AMBIENTALES</div>
     <div className="description">Nazca SpA. desarrolla en forma integral estudios ambientales marinos y en aguas continentales que sean requeridos en función de los objetivos de cada proyecto, siempre de acuerdo con lo exigido por las normativas ambientales y sectoriales vigentes. La calidad de sus profesionales y su vasta experiencia permiten asegurar a nuestros clientes la entrega de un apoyo técnico integral y sólido.</div>

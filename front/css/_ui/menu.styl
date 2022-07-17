@@ -1,0 +1,57 @@
+@import 'icon'
+
+.nav-icon
+    width 46px
+    height 46px
+    background-color rgba(0, 0, 0, 0.66)
+    display flex
+    align-items center
+    justify-content center
+    position fixed
+    right 1em
+    top 1em
+    z-index 2
+
+
+.menu 
+    background-color rgba(1, 16, 25, 0.67)
+    position fixed
+    width 200px
+    right -200px
+    height 100vh
+    transition right .5s ease-in-out
+    z-index 1
+
+    &--active
+        right 0
+
+
+    .menu-list
+        display block
+        text-align center
+        text-transform uppercase
+        color white
+        text-decoration none
+        font-size 1em
+        font-weight bold
+        text-transform uppercase
+        letter-spacing 3px
+        font-family 'Open Sans', sans-serif
+        margin-top 100px
+
+    .menu-item
+        padding 1em
+        background-color transparent
+        transition all .3s ease-in-out
+
+        &:hover
+            cursor pointer
+            background-color #1876a3
+            transition all .3s ease-in-out
+
+
+@media screen and (min-width 1024px)
+    .nav-icon
+        top 1.5em
+
+    

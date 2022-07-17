@@ -13,7 +13,7 @@ const ItemTeamGallery = ({ data, onClick, isActive }) => {
         <img src={data.icon} />
       </div>
       <div className={itemBodyClasses}>
-        <div className="item-body__img"><img src={data.url}/></div>
+        <div className="item-body__img"><img src={data.url} alt="item" /></div>
         <div className="item-body__info">
           <div className="title">{data.name}</div>
           <div className="subtitle">{data.subtitle}</div>
