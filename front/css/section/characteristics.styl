@@ -14,26 +14,6 @@
         min-height 250px
         background-color #1F69AF
 
-.grid-1g-2x2
-    display grid
-    grid-template-columns repeat(3, 1fr)
-    grid-template-areas 'x1 x2 x3' 'x1 x4 x5'
-
-.grid-item-x1
-    grid-area x1
-
-.grid-item-x2
-    grid-area x2
-
-.grid-item-x3
-    grid-area x3
-
-.grid-item-x4
-    grid-area x4
-
-.grid-item-x5
-    grid-area x5
-
 
 .box-info
     font-family 'Montserrat', sans-serif
@@ -54,3 +34,26 @@
     display flex
     justify-content center 
     align-items center
+
+    
+
+@media screen and (min-width 1024px)
+    .grid-1g-2x2
+        display grid
+        grid-template-columns repeat(3, 1fr)
+        grid-template-areas 'x1 x2 x3' 'x1 x4 x5'
+
+    .grid-item-x1
+        grid-area x1
+
+    .grid-item-x2
+        grid-area x2
+
+    .grid-item-x3
+        grid-area x3
+
+    .grid-item-x4
+        grid-area x4
+
+    .grid-item-x5
+        grid-area x5
