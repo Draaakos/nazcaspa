@@ -1,5 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import TeamGallery from '../modules/TeamGallery';
 
-ReactDOM.render(<TeamGallery />, document.getElementById('team-gallery'));
+
+const root = createRoot(document.getElementById('team-gallery'));
+root.render(<TeamGallery />);

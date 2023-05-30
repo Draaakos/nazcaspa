@@ -1,5 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { Carousel } from 'react-responsive-carousel';
 
 const BannerCarousel = () => (
@@ -16,4 +15,5 @@ const BannerCarousel = () => (
   </Carousel>
 );
 
-ReactDOM.render(<BannerCarousel key='banner-carousel-1' />, document.getElementById('banner-carousel'));
+const root = createRoot(document.getElementById('banner-carousel'));
+root.render(<BannerCarousel key='banner-carousel-1' />);
