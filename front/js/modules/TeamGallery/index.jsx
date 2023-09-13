@@ -73,6 +73,16 @@ const teamData = [
     description: ''
   },
   {
+    icon: '/static/img/2023/team/icon/Gonzalo.png',
+    url: '/static/img/2023/team/personal/Gonzalo.png',
+    name: 'Gonzalo Aguilar L.​​',
+    subtitle: 'Jefe de Oceanografía',
+    experience: '27',
+    profession: 'Biólogo Marino​',
+    study: 'Pontificia Universidad Católica de Valparaíso​',
+    description: ''
+  },
+  {
     icon: '/static/img/2023/team/icon/Helmuth.png',
     url: '/static/img/2023/team/personal/Helmuth.png',
     name: 'Helmuth Proschle A.',
@@ -96,11 +106,11 @@ const teamData = [
     icon: '/static/img/2023/team/icon/Manuel.png',
     url: '/static/img/2023/team/personal/Manuel.png',
     name: 'Manuel Merino R.',
-    subtitle: '?',
-    experience: '?',
-    profession: '?',
-    study: '?',
-    description: '?'
+    subtitle: 'Geografo',
+    experience: '5',
+    profession: 'Consultor de Proyectos',
+    study: 'Universidad Católica de Chile',
+    description: ''
   },
   {
     icon: '/static/img/2023/team/icon/Marcelo.png',
