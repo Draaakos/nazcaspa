@@ -3,8 +3,8 @@ import classNames from 'classnames';
 
 const teamData = [
   {
-    icon: '/static/img/team/jorge-icon.jpg',
-    url: '/static/img/team/jorge.jpg',
+    icon: '/static/img/2023/team/icon/Jorge.png',
+    url: '/static/img/2023/team/personal/Jorge.png',
     name: 'Jorge Álvarez C.',
     subtitle: 'gerente general',
     experience: '25',
@@ -13,8 +13,8 @@ const teamData = [
     description: ''
   },
   {
-    icon: '/static/img/team/priscila-icon.jpg',
-    url: '/static/img/team/priscila.jpg',
+    icon: '/static/img/2023/team/icon/Priscilla.png',
+    url: '/static/img/2023/team/personal/Priscilla.png',
     name: 'Priscilla Morales G.​',
     subtitle: 'Gerente Recursos Humanos',
     experience: '20',
@@ -23,18 +23,28 @@ const teamData = [
     description: ''
   },
   {
-    icon: '/static/img/team/gonzaloAguilar-icon.png',
-    url: '/static/img/team/gonzaloAguilar.png',
-    name: 'Gonzalo Aguilar L.​',
-    subtitle: 'jefe de proyectos',
-    experience: '25',
-    profession: 'Oceanógrafo',
-    study: 'Pontificia Universidad Católica de Valparaíso',
+    icon: '/static/img/2023/team/icon/Benjamin.png',
+    url: '/static/img/2023/team/personal/Benjamin.png',
+    name: 'Benjamín Betancur F.​',
+    subtitle: 'Asistente de Operaciones',
+    experience: '5',
+    profession: 'Técnico en Mecánica Automotriz​',
+    study: 'DUOC UC​',
     description: ''
   },
   {
-    icon: '/static/img/team/cristianManque-icon.png',
-    url: '/static/img/team/cristianManque.png',
+    icon: '/static/img/2023/team/icon/Carlos.png',
+    url: '/static/img/2023/team/personal/Carlos.png',
+    name: 'Carlos Ortiz',
+    subtitle: 'hidrógrafo consultor',
+    experience: '13',
+    profession: 'Hidrógrafo ex SHOA',
+    study: 'Servicio Hidrográfico y Oceanográfico de la Armada​',
+    description: ''
+  },
+  {
+    icon: '/static/img/2023/team/icon/Cristian.png',
+    url: '/static/img/2023/team/personal/Cristian.png',
     name: 'Cristian Manque S.​',
     subtitle: 'Jefe de proyecto',
     experience: '21',
@@ -43,58 +53,58 @@ const teamData = [
     description: ''
   },
   {
-    icon: '/static/img/team/rolandoMorales-icon.png',
-    url: '/static/img/team/rolandoMorales.png',
-    name: 'Rolando Morales G.​',
-    subtitle: 'Coordinador de Proyectos',
-    experience: '21',
-    profession: 'Técnico Nivel Superior Administración Marítima Portuaria​',
-    study: 'Academia Politécnica Naval',
-    description: ''
-  },
-  {
-    icon: '/static/img/team/lilianHernandez-icon.png',
-    url: '/static/img/team/lilianHernandez.png',
-    name: 'Lilian Hernandez P.',
-    subtitle: 'Secretaria de Gerencia',
-    experience: '25',
-    profession: 'Secretaria Ejecutiva',
-    study: 'CFT La Araucana​',
-    description: ''
-  },
-  {
-    icon: '/static/img/team/nestorRiveros-icon.png',
-    url: '/static/img/team/nestorRiveros.png',
-    name: 'Néstor Riveros Z.​',
-    subtitle: 'hidrógrafo consultor',
-    experience: '11',
-    profession: 'Hidrógrafo ex SHOA',
-    study: 'Servicio Hidrográfico y Oceanográfico de la Armada',
-    description: ''
-  },
-  {
-    icon: '/static/img/team/erikRomero-icon.png',
-    url: '/static/img/team/erikRomero.png',
+    icon: '/static/img/2023/team/icon/Erik.png',
+    url: '/static/img/2023/team/personal/Erik.png',
     name: 'Erik Romero S.',
     subtitle: 'hidrógrafo consultor',
-    experience: '11',
+    experience: '13',
     profession: 'Hidrógrafo ex SHOA',
     study: 'Servicio Hidrográfico y Oceanográfico de la Armada​',
     description: ''
   },
   {
-    icon: '/static/img/team/helmuthProschle-icon.png',
-    url: '/static/img/team/helmuthProschle.png',
+    icon: '/static/img/2023/team/icon/Gabriel.png',
+    url: '/static/img/2023/team/personal/Gabriel.png',
+    name: 'Gabriel Cárdenas H.​',
+    subtitle: 'biólogo consultor',
+    experience: '3',
+    profession: 'Biólogo Marino​',
+    study: 'Universidad de Los Lagos​',
+    description: ''
+  },
+  {
+    icon: '/static/img/2023/team/icon/Helmuth.png',
+    url: '/static/img/2023/team/personal/Helmuth.png',
     name: 'Helmuth Proschle A.',
     subtitle: 'hidrógrafo consultor',
-    experience: '11',
+    experience: '13',
     profession: 'Ingeniero Ejecución Industrial / Hidrógrafo ex SHOA',
     study: 'Universidad de Las Américas / Servicio Hidrográfico y Oceanográfico de la Armada',
     description: ''
   },
   {
-    icon: '/static/img/team/marceloProvoste-icon.png',
-    url: '/static/img/team/marceloProvoste.png',
+    icon: '/static/img/2023/team/icon/Mabel.png',
+    url: '/static/img/2023/team/personal/Mabel.png',
+    name: 'Mabel von Johnn A.',
+    subtitle: 'Asistente Administrativa',
+    experience: '20',
+    profession: 'Secretaria Administrativa​',
+    study: 'Instituto Sandrok​',
+    description: ''
+  },
+  {
+    icon: '/static/img/2023/team/icon/Manuel.png',
+    url: '/static/img/2023/team/personal/Manuel.png',
+    name: 'Manuel Merino R.',
+    subtitle: '?',
+    experience: '?',
+    profession: '?',
+    study: '?',
+    description: '?'
+  },
+  {
+    icon: '/static/img/2023/team/icon/Marcelo.png',
+    url: '/static/img/2023/team/personal/Marcelo.png',
     name: 'Marcelo Provoste D.​',
     subtitle: 'Biólogo Consultor',
     experience: '3',
@@ -103,13 +113,53 @@ const teamData = [
     description: ''
   },
   {
-    icon: '/static/img/team/gabrielCardenas-icon.png',
-    url: '/static/img/team/gabrielCardenas.png',
-    name: 'Gabriel Cárdenas H.​',
-    subtitle: 'biólogo consultor',
-    experience: '3',
-    profession: 'Biólogo Marino​',
-    study: 'Universidad de Los Lagos​',
+    icon: '/static/img/2023/team/icon/Mariana.png',
+    url: '/static/img/2023/team/personal/Mariana.png',
+    name: 'Mariana Aguila S.​',
+    subtitle: 'Analista Contable',
+    experience: '6',
+    profession: 'Ingeniería en Administración de empresas​',
+    study: 'Universidad San Sebastián​',
+    description: ''
+  },
+  {
+    icon: '/static/img/2023/team/icon/Martin.png',
+    url: '/static/img/2023/team/personal/Martin.png',
+    name: 'Martin Soto T.',
+    subtitle: 'Consultor de Proyecto',
+    experience: '1',
+    profession: 'Ingeniero Civil',
+    study: 'Universidad Católica del Maule​',
+    description: ''
+  },
+  {
+    icon: '/static/img/2023/team/icon/Nestor.png',
+    url: '/static/img/2023/team/personal/Nestor.png',
+    name: 'Néstor Riveros Z.​',
+    subtitle: 'Jefe de Hidrografía y Robótica',
+    experience: '13',
+    profession: 'Hidrógrafo ex SHOA',
+    study: 'Servicio Hidrográfico y Oceanográfico de la Armada',
+    description: ''
+  },
+  {
+    icon: '/static/img/2023/team/icon/Paola.png',
+    url: '/static/img/2023/team/personal/Paola.png',
+    name: 'Paola Wilhelm M.',
+    subtitle: 'Jefa de Administración',
+    experience: '30',
+    profession: 'Secretariado Ejecutivo',
+    study: 'Instituto Manpower​',
+    description: ''
+  },
+  {
+    icon: '/static/img/2023/team/icon/Ximena.png',
+    url: '/static/img/2023/team/personal/Ximena.png',
+    name: 'Ximena Perez G.',
+    subtitle: 'Encargada de Aseo y Ornato',
+    experience: '',
+    profession: '',
+    study: '​',
     description: ''
   }
 ];
@@ -119,6 +169,8 @@ const ItemTeamGallery = ({ data, onClick, isActive }) => {
     'item-body': true,
     'item-body--active': isActive
   });
+
+  const experienceLabel = data.experience ? `Experiencia: ${data.experience} años.` : null
 
   return (
     <React.Fragment>
@@ -132,7 +184,7 @@ const ItemTeamGallery = ({ data, onClick, isActive }) => {
           <div className="subtitle">{data.subtitle}</div>
           <div className="profession-text">{data.profession}</div>
           <div className="study-text">{data.study}</div>
-          <div className="experience-text">Experiencia: {data.experience} años.</div>
+          <div className="experience-text">{experienceLabel}</div>
           <div className="info">{data.description}</div>
         </div>
       </div>
@@ -166,7 +218,7 @@ const TeamGallery = () => {
     };
   };
 
-  const itemList = teamData.map((item, index) => 
+  const itemList = teamData.map((item, index) =>
     <ItemTeamGallery
       data={item}
       onClick={onHandlerItem(index)}
@@ -177,14 +229,14 @@ const TeamGallery = () => {
 
   const desktopMenu = (
     <div className="team-galery-desktop-list">
-      { 
-        teamData.map((item, index) => 
-          <ImageItem 
-            item={item} 
-            isActive={!!(index == itemActive)} 
-            onClick={onHandlerItem(index)} 
+      {
+        teamData.map((item, index) =>
+          <ImageItem
+            item={item}
+            isActive={!!(index == itemActive)}
+            onClick={onHandlerItem(index)}
             key={`img-team-gallery-${index}`}
-          /> 
+          />
         )
       }
     </div>

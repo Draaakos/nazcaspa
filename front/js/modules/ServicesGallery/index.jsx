@@ -58,19 +58,16 @@ const ServicesGallery = () => {
       <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.GEODESY)}>
         <Carousel
           key="carousel-images-1"
-          time={2700}
+          time={6000}
           name="geodesy"
           images={
             [
-              '/static/img/services/geodesia1.jpeg',
-              '/static/img/services/geodesia2.jpg',
-              '/static/img/services/geodesia3.jpg',
-              '/static/img/services/geodesia4.jpg',
-              '/static/img/services/geodesia5.jpg',
-              '/static/img/services/geodesia6.jpg',
-              '/static/img/services/geodesia7.jfif',
-              '/static/img/services/geodesia8.jpg',
-              '/static/img/services/geodesia9.jpg'
+              '/static/img/2023/services/geodesia/1.jpg',
+              '/static/img/2023/services/geodesia/2.jpg',
+              '/static/img/2023/services/geodesia/3.jpg',
+              '/static/img/2023/services/geodesia/4.jpg',
+              '/static/img/2023/services/geodesia/5.jpg',
+              '/static/img/2023/services/geodesia/6.jpg'
             ]
           }
         />
@@ -94,13 +91,12 @@ const ServicesGallery = () => {
         <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.METEOROLOGY)}>
           <Carousel
             key="carousel-images-2"
-            time={5500}
+            time={6000}
             name="meteology"
             images={
               [
-                '/static/img/services/meteorologia1.jpg',
-                '/static/img/services/meteorologia2.jpg',
-                '/static/img/services/meteorologia3.jpg'
+                '/static/img/2023/services/meteorologia/1.jpg',
+                '/static/img/2023/services/meteorologia/2.jpg'
               ]
             }
           />
@@ -116,16 +112,15 @@ const ServicesGallery = () => {
         <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.OCEANOGRAPHY)}>
           <Carousel
             key="carousel-images-3"
-            time={2400}
+            time={6000}
             name="oceanography"
             images={
               [
-                '/static/img/services/oceanografia1.jpg',
-                '/static/img/services/oceanografia2.jpg',
-                '/static/img/services/oceanografia3.jpg',
-                '/static/img/services/oceanografia4.jpg',
-                '/static/img/services/oceanografia5.jpg',
-                '/static/img/services/oceanografia6.jpg'
+                '/static/img/2023/services/oceanografia/1.jpg',
+                '/static/img/2023/services/oceanografia/2.jpg',
+                '/static/img/2023/services/oceanografia/3.jpg',
+                '/static/img/2023/services/oceanografia/4.jpg',
+                '/static/img/2023/services/oceanografia/5.jpg'
               ]
             }
           />
@@ -139,17 +134,18 @@ const ServicesGallery = () => {
         <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.HIDROGRAPHY)}>
           <Carousel
             key="carousel-images-4"
-            time={3500}
+            time={6000}
             name="hidrography"
             images={
               [
-                '/static/img/services/hidrografia1.jpeg',
-                '/static/img/services/hidrografia2.jpg',
-                '/static/img/services/hidrografia3.jpg',
-                '/static/img/services/hidrografia4.jpg',
-                '/static/img/services/hidrografia5.png',
-                '/static/img/services/hidrografia6.png',
-                '/static/img/services/hidrografia7.jpg'
+                '/static/img/2023/services/hidrografia/1.jpg',
+                '/static/img/2023/services/hidrografia/2.jpg',
+                '/static/img/2023/services/hidrografia/3.jpg',
+                '/static/img/2023/services/hidrografia/4.jpg',
+                '/static/img/2023/services/hidrografia/5.jpg',
+                '/static/img/2023/services/hidrografia/6.jpg',
+                '/static/img/2023/services/hidrografia/7.jpg',
+                '/static/img/2023/services/hidrografia/8.jpg'
               ]
             }
           />
@@ -175,17 +171,16 @@ const ServicesGallery = () => {
         <div className="img-hovered" onClick={selectSection(SERVICES_ENUM.ENVIRONMENTAL)}>
           <Carousel
             key="carousel-images-5"
-            time={3000}
+            time={6000}
             name="ambiental"
             images={
               [
-                '/static/img/services/ambientales1.jpg',
-                '/static/img/services/ambientales2.jpg',
-                '/static/img/services/ambientales3.jpg',
-                '/static/img/services/ambientales4.jpg',
-                '/static/img/services/ambientales5.jpg',
-                '/static/img/services/ambientales6.jpg',
-                '/static/img/services/ambientales6.jpg'
+                '/static/img/2023/services/estudios_ambientales/1.jpg',
+                '/static/img/2023/services/estudios_ambientales/2.jpg',
+                '/static/img/2023/services/estudios_ambientales/3.jpg',
+                '/static/img/2023/services/estudios_ambientales/4.jpg',
+                '/static/img/2023/services/estudios_ambientales/5.jpg',
+                '/static/img/2023/services/estudios_ambientales/6.jpg'
               ]
             }
           />

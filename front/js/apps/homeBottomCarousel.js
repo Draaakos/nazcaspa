@@ -21,9 +21,9 @@ const clientList2 = [
     'link': 'https://nazcaspa.sharepoint.com/sites/mowi'
   },
   {
-    'name': 'BluRiver Chile',
-    'url': '/static/img/logobluriver.png',
-    'link': 'https://nazcaspa.sharepoint.com/sites/bluriver'
+    'name': 'Ventisqueros',
+    'url': '/static/img/Ventisqueros.png',
+    'link': 'https://nazcaspa.sharepoint.com/sites/Ventisqueros2'
   }
 ];
 
@@ -32,6 +32,11 @@ const clientList3 = [
     'name': 'Cooke AQUALCULTURE',
     'url': '/static/img/cooke.png',
     'link': 'https://nazcaspa.sharepoint.com/sites/CookeAquacultureChile'
+  },
+  {
+    'name': 'AQUA CHILE',
+    'url': '/static/img/AquaChile.png',
+    'link': 'https://nazcaspa.sharepoint.com/sites/aquachile'
   }
 ];
 
